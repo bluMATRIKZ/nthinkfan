@@ -10,12 +10,12 @@ gcc
 sudo
 ````
 
-To install run:
+To install, run:
 ````
 make
 ````
 
-To remove run:
+To remove, run:
 ````
 make remove
 ````
