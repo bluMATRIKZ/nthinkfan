@@ -47,7 +47,7 @@ int main() {
 
         if (ret != 0) break;
 
-        FILE *fp = fopen("choice.tmp", "r");
+        FILE *fp = fopen("/tmp/nthinkfan.tmp", "r");
         if (!fp) break;
         fgets(choice, sizeof(choice), fp);
         fclose(fp);
