@@ -19,3 +19,8 @@ To remove, run:
 ````
 make remove
 ````
+
+To run nthinkfan, run:
+```
+nthinkfan
+```
