@@ -1,5 +1,5 @@
 # nthinkfan
-Control ThinkPads fan speed with dialog on Linux
+Control ThinkPad's fan speed with dialog on Linux
 
 You will need:
 ````
