@@ -28,7 +28,7 @@ int main() {
 
     while (1) {
         snprintf(cmd, sizeof(cmd),
-            "dialog --backtitle \"nthinkfan v1.0\" "
+            "dialog --backtitle \"nthinkfan\" "
             "--title \"Set Fan Speed\" "
             "--ok-label \"Set\" --cancel-label \"Exit\" "
             "--menu \"\" 20 55 10 "
@@ -53,7 +53,7 @@ int main() {
         if (!fp) break;
         fgets(choice, sizeof(choice), fp);
         fclose(fp);
-        remove("choice.tmp");
+        remove("/tmp/nthinkfan.tmp");
 
         choice[strcspn(choice, "\n")] = 0;
 
