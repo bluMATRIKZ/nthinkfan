@@ -1,7 +1,7 @@
 CC = gcc
 SU = sudo
 SRC = nthinkfan.c
-BIN = /bin/nthinkfan
+BIN = /usr/local/bin/nthinkfan
 
 all:
 	$(SU) $(CC) $(SRC) -o $(BIN)
