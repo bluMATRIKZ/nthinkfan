@@ -1,4 +1,4 @@
-# (NEW ADW GUI APP OUT NOW!)[https://github.com/bluMATRIKZ/blower]
+# [NEW ADW GUI APP OUT NOW!](https://github.com/bluMATRIKZ/blower)
 
 # nthinkfan
 Control ThinkPad's fan speed with dialog on Linux
